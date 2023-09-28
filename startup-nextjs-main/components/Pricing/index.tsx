@@ -17,7 +17,7 @@ const Pricing = () => {
           width="665px"
         />
 
-        <div className="w-full">
+        {/* <div className="w-full">
           <div
             className="wow fadeInUp mb-8 flex justify-center md:mb-12 lg:mb-16"
             data-wow-delay=".1s"
@@ -58,47 +58,47 @@ const Pricing = () => {
               Yearly
             </span>
           </div>
-        </div>
+        </div> */}
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
             packageName="Lite"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
+            price='2999'
+            duration="3mo" 
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="FrontEnd" status="active" />
+            <OfferList text="BackEnd" status="active" />
+            <OfferList text="FullStack Development" status="active" />
+            <OfferList text="CyberSecurity and Ethical Hacking" status="active" />
+            <OfferList text="Networking Essentionals and Beyond" status="active" />
+            <OfferList text="AI/ML" status="active" />
           </PricingBox>
           <PricingBox
             packageName="Basic"
-            price={isMonthly ? "399" : "789"}
-            duration={isMonthly ? "mo" : "yr"}
+            price='5499'
+            duration='4mo'
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="FrontEnd" status="active" />
+            <OfferList text="BackEnd" status="active" />
+            <OfferList text="FullStack Development" status="active" />
+            <OfferList text="CyberSecurity and Ethical Hacking" status="active" />
+            <OfferList text="Networking Essentionals and Beyond" status="active" />
+            <OfferList text="AI/ML" status="active" />
           </PricingBox>
           <PricingBox
             packageName="Plus"
-            price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"}
+            price='9999'
+            duration='1yr'
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="FrontEnd" status="active" />
+            <OfferList text="BackEnd" status="active" />
+            <OfferList text="FullStack Development" status="active" />
+            <OfferList text="CyberSecurity and Ethical Hacking" status="active" />
+            <OfferList text="Networking Essentionals and Beyond" status="active" />
+            <OfferList text="AI/ML" status="active" />
           </PricingBox>
         </div>
       </div>
