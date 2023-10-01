@@ -18,7 +18,7 @@ const Hero = () => {
                 Building Careers Through Experience
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-           At Techy Fam, we're not just shaping the future of students; we're crafting tomorrow's tech leaders, all while ensuring access to the best courses at a fraction of the cost. Join our vibrant community today and ignite your path to success with affordable excellence
+           At Techy Fam, we are not just shaping the future of students; we are crafting tomorrows tech leaders, all while ensuring access to the best courses at a fraction of the cost. Join our vibrant community today and ignite your path to success with affordable excellence
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   {/* <Link
